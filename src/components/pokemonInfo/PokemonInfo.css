@@ -41,6 +41,10 @@
 
 @media (max-width: 800px) {
 
+    .pokemon-info__block {
+        width: 40%;
+    }
+
     .pokemon-info__item {
         min-height: 40vh;
     }
