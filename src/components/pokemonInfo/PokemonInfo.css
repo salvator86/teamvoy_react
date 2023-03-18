@@ -39,3 +39,15 @@
     font-size: 2vh;
 }
 
+@media (max-width: 800px) {
+
+    .pokemon-info__item {
+        min-height: 40vh;
+    }
+
+    .pokemon-info__table {
+        height: 40%;
+    }
+
+}
+

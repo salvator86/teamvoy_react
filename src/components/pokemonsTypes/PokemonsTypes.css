@@ -92,3 +92,15 @@
 .pokemon-item__type__background-shadow {
     background-color: #4d4c4c;
 }
+
+@media (max-width: 800px) {
+
+    .pokemon-item__type {
+        height: 4.5vh;
+    }
+
+    .pokemon-item__type__text-position {
+        font-size: 3vh;
+    }
+
+}

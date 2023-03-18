@@ -43,3 +43,14 @@
     color: white;
     text-align: center;
 }
+
+@media (max-width: 800px) {
+
+    .pokemon-item {
+        width: 60%;
+    }
+
+    .pokemon-item__image {
+        height: 50%;
+    }
+}

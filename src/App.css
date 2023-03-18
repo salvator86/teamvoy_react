@@ -24,3 +24,16 @@ h1 {
     right: 0;
     margin-top: 80px;
 }
+
+@media (max-width: 800px) {
+
+    .pokemon-content__info-side {
+        margin-top: 150px;
+        width: 40%;
+    }
+
+    .pokemon-content__info-side p {
+        width: 80%;
+    }
+
+}
