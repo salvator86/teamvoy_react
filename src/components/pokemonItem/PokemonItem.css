@@ -24,6 +24,7 @@
     min-height: 60%;
     margin: 0 auto;
     text-align: center;
+    color: white;
 }
 
 .pokemon-item__name {
