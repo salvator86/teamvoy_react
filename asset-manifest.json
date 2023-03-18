@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/teamvoy_react/static/css/main.39880c02.css",
-    "main.js": "/teamvoy_react/static/js/main.1558f0f4.js",
+    "main.css": "/teamvoy_react/static/css/main.eab3ae71.css",
+    "main.js": "/teamvoy_react/static/js/main.ac458b43.js",
     "index.html": "/teamvoy_react/index.html",
-    "main.39880c02.css.map": "/teamvoy_react/static/css/main.39880c02.css.map",
-    "main.1558f0f4.js.map": "/teamvoy_react/static/js/main.1558f0f4.js.map"
+    "main.eab3ae71.css.map": "/teamvoy_react/static/css/main.eab3ae71.css.map",
+    "main.ac458b43.js.map": "/teamvoy_react/static/js/main.ac458b43.js.map"
   },
   "entrypoints": [
-    "static/css/main.39880c02.css",
-    "static/js/main.1558f0f4.js"
+    "static/css/main.eab3ae71.css",
+    "static/js/main.ac458b43.js"
   ]
 }
