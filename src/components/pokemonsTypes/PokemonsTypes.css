@@ -1,0 +1,94 @@
+.pokemon-item__type {
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1vh auto;
+}
+
+.pokemon-item__type__text-position {
+    margin: 0 auto;
+    font-size: 2vh;
+}
+
+.pokemon-item__type__background-poison {
+    background-color: purple;
+}
+
+.pokemon-item__type__background-normal {
+    background-color: darkcyan;
+}
+
+.pokemon-item__type__background-fighting {
+    background-color: #70686a;
+}
+
+.pokemon-item__type__background-flying {
+    background-color: #004e5d;
+}
+
+.pokemon-item__type__background-ground {
+    background-color: #563f3f;
+}
+
+.pokemon-item__type__background-rock {
+    background-color: #524c4c;
+}
+
+.pokemon-item__type__background-bug {
+    background-color: #919191;
+}
+
+.pokemon-item__type__background-ghost {
+    background-color: #4f4e4e;
+}
+
+.pokemon-item__type__background-steel {
+    background-color: gray;
+}
+
+.pokemon-item__type__background-fire {
+    background-color: firebrick;
+}
+
+.pokemon-item__type__background-water {
+    background-color: #4c72fd;
+}
+
+.pokemon-item__type__background-grass {
+    background-color: #07ab12;
+}
+
+.pokemon-item__type__background-electric {
+    background-color: darkblue;
+}
+
+.pokemon-item__type__background-psychic {
+    background-color: #803056;
+}
+
+.pokemon-item__type__background-ice {
+    background-color: #05baef;
+}
+
+.pokemon-item__type__background-dragon {
+    background-color: #ef5555;
+}
+
+.pokemon-item__type__background-dark {
+    background-color: #21212d;
+}
+
+.pokemon-item__type__background-fairy {
+    background-color: #d50083;
+}
+
+.pokemon-item__type__background-unknown {
+    background-color: darkgoldenrod;
+}
+
+.pokemon-item__type__background-shadow {
+    background-color: #4d4c4c;
+}

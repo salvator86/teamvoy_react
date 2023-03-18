@@ -1,0 +1,41 @@
+.pokemon-info__block {
+    position: fixed;
+    width: 35%;
+    right: 0;
+}
+
+.pokemon-info__item {
+    width: 80%;
+    margin: 5vh auto 0 auto;
+    min-height: 77vh;
+    background-color: #67a9ff;
+    border-radius: 10px;
+}
+
+.pokemon-info__empty-image {
+    height: 220px;
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+.pokemon-info__empty-image-text {
+    margin: 0 auto;
+    position: fixed;
+}
+
+.pokemon-info__image {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.pokemon-info__table {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 90%;
+    border-collapse: collapse;
+    height: 50%;
+    font-size: 2vh;
+}
+
