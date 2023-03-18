@@ -57,7 +57,7 @@ function App() {
 
         changeSpinner(true)
 
-        getFetch('https://pokeapi.co/api/v2/pokemon/?limit=1200')
+        getFetch('https://pokeapi.co/api/v2/pokemon/?limit=12')
             .then(data => {
                 data.next ? setNextPage(data.next) : setNextPage('')
                 setPokemons(data.results)
