@@ -20,9 +20,8 @@
 
 .pokemon-item__empty-image {
     width: 90%;
+    display: block;
     min-height: 60%;
-    display: flex;
-    align-items: center;
     margin: 0 auto;
     text-align: center;
 }
@@ -53,4 +52,23 @@
     .pokemon-item__image {
         height: 50%;
     }
+}
+
+@media (max-width: 500px) {
+
+    .pokemon-item {
+        display: grid;
+        align-items: center;
+    }
+
+    .pokemon-item__name {
+        font-size: 2vh;
+    }
+
+    .pokemon-item__image {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
 }

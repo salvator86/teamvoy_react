@@ -14,3 +14,10 @@
     color: white;
     font-size: 30px;
 }
+
+@media (max-width: 800px) {
+    .spinner-text {
+        left: 30%;
+    }
+}
+
