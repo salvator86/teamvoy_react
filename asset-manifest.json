@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/teamvoy_react/static/css/main.1afbc9bf.css",
-    "main.js": "/teamvoy_react/static/js/main.a50fc0e1.js",
+    "main.css": "/teamvoy_react/static/css/main.b0f688c6.css",
+    "main.js": "/teamvoy_react/static/js/main.7325fd91.js",
     "static/media/pokemon.webp": "/teamvoy_react/static/media/pokemon.4c75b406a13c135e724d.webp",
     "index.html": "/teamvoy_react/index.html",
-    "main.1afbc9bf.css.map": "/teamvoy_react/static/css/main.1afbc9bf.css.map",
-    "main.a50fc0e1.js.map": "/teamvoy_react/static/js/main.a50fc0e1.js.map"
+    "main.b0f688c6.css.map": "/teamvoy_react/static/css/main.b0f688c6.css.map",
+    "main.7325fd91.js.map": "/teamvoy_react/static/js/main.7325fd91.js.map"
   },
   "entrypoints": [
-    "static/css/main.1afbc9bf.css",
-    "static/js/main.a50fc0e1.js"
+    "static/css/main.b0f688c6.css",
+    "static/js/main.7325fd91.js"
   ]
 }
