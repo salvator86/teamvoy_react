@@ -4,7 +4,8 @@ import './PokemonsList.css'
 import Spinner from "../spinner/Spinner";
 import {getFetch} from "../../services/api.service";
 
-const PokemonsList = ({pokemons, showPokemonInfo, nextPageUrl, loadMore, filterPokemons, changeSpinner}) => {
+const PokemonsList = ({pokemons, showPokemonInfo, nextPageUrl, loadMore, filterPokemons, changeSpinner,
+                          setDefaultPokemons}) => {
 
     const [types, setTypes] = useState([]);
 
@@ -37,6 +38,13 @@ const PokemonsList = ({pokemons, showPokemonInfo, nextPageUrl, loadMore, filterP
                     filterPokemons(data.pokemon)
                     changeSpinner(false)
                 })
+        } else {
+            changeSpinner(true)
+            getFetch(`https://pokeapi.co/api/v2/pokemon/?limit=12`)
+                .then(data => {
+                    setDefaultPokemons(data)
+                    changeSpinner(false)
+                })
         }
     }
 
@@ -48,9 +56,8 @@ const PokemonsList = ({pokemons, showPokemonInfo, nextPageUrl, loadMore, filterP
                     defaultValue='Filter'
                     onChange={(e) => getPokemonsByType(e.target.value)}>
                 <option
-                    disabled
                     value='Filter'>Filter</option>
-                {options}
+                    {options}
             </select>
             <div className='pokemon-items'>
                 {pokemonsList}

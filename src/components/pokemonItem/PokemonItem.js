@@ -24,9 +24,6 @@ const PokemonItem = ({url, showPokemonInfo}) => {
             {
                 pokemon.sprites.front_default
                 ?   <img className='pokemon-item__image' src={pokemon.sprites.front_default} alt='pokemon'/>
-                // :   <div className='pokemon-item__empty-image'>
-                //         <p>We still don't have image of this pokemon</p>
-                //     </div>
                 :   <img className='pokemon-item__image'
                          src={image} alt={'pokemon'}/>
             }

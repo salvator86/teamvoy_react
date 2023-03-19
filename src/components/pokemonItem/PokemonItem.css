@@ -49,14 +49,9 @@
     .pokemon-item {
         width: 60%;
     }
-
-    .pokemon-item__image {
-        height: 50%;
-    }
 }
 
 @media (max-width: 500px) {
-
     .pokemon-item {
         display: grid;
         align-items: center;
@@ -71,5 +66,4 @@
         width: 80%;
         margin: 0 auto;
     }
-
 }

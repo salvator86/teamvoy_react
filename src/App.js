@@ -53,14 +53,18 @@ function App() {
         setPokemonInfo(transformPokemonData(pokemon))
     }
 
+    const setDefaultPokemons = (data) => {
+        data.next ? setNextPage(data.next) : setNextPage('')
+        setPokemons(data.results)
+    }
+
     useEffect(() => {
 
         changeSpinner(true)
 
         getFetch('https://pokeapi.co/api/v2/pokemon/?limit=12')
             .then(data => {
-                data.next ? setNextPage(data.next) : setNextPage('')
-                setPokemons(data.results)
+                setDefaultPokemons(data)
                 changeSpinner(false)
             })
 
@@ -79,6 +83,7 @@ function App() {
                               filterPokemons={filterPokemons}
                               spinner={spinner}
                               changeSpinner={changeSpinner}
+                              setDefaultPokemons={setDefaultPokemons}
                 />
                 {
                     showedInfo
