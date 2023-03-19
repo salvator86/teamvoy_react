@@ -1,6 +1,7 @@
 import React from 'react';
 import './PokemonInfo.css'
 import TableRow from "../tableRow/TableRow";
+import image from '../../assets/pokemon.webp'
 
 const PokemonInfo = ({pokemonInfo}) => {
 
@@ -16,9 +17,7 @@ const PokemonInfo = ({pokemonInfo}) => {
                 {
                     pokemonInfo.img
                     ?   <img className='pokemon-info__image' src={pokemonInfo.img} alt="pokemon"/>
-                    :   <div className='pokemon-info__empty-image'>
-                            <p className='pokemon-info__empty-image-text'>We still don't have image of this pokemon</p>
-                        </div>
+                    :   <img className='pokemon-info__image' src={image} alt=""/>
                 }
                 <table className='pokemon-info__table'>
                     <tbody>

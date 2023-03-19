@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './PokemonItem.css'
 import PokemonsTypes from "../pokemonsTypes/PokemonsTypes";
 import {getFetch} from "../../services/api.service";
+import image from '../../assets/pokemon.webp'
 
 const PokemonItem = ({url, showPokemonInfo}) => {
 
@@ -23,9 +24,11 @@ const PokemonItem = ({url, showPokemonInfo}) => {
             {
                 pokemon.sprites.front_default
                 ?   <img className='pokemon-item__image' src={pokemon.sprites.front_default} alt='pokemon'/>
-                :   <div className='pokemon-item__empty-image'>
-                        <p>We still don't have image of this pokemon</p>
-                    </div>
+                // :   <div className='pokemon-item__empty-image'>
+                //         <p>We still don't have image of this pokemon</p>
+                //     </div>
+                :   <img className='pokemon-item__image'
+                         src={image} alt={'pokemon'}/>
             }
             <p className='pokemon-item__name'>{pokemon.name}</p>
             {
